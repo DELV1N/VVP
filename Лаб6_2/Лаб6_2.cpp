@@ -8,7 +8,7 @@ int main()
     cout << "Введите значения A, B и C\n";
     cin >> A >> B >> C;
     swap(A, B);
-    swap(B, C);
+    swap(C, A);
     cout << "Новые значения A,B и C равны " << A << ", " << B << ", " << C;
     return 0;
 }
