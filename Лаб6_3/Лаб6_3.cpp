@@ -9,6 +9,6 @@ int main()
     cin >> A >> B >> C;
     swap(A, C);
     swap(B, A);
-    cout << A << B << C;
+    cout << "Новые значения A,B и C равны " << A << ", " << B << ", " << C;
     return 0;
 }
